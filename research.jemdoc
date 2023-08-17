@@ -4,7 +4,13 @@
 My research of interest is primarily on quantum computing.
 
 == @ USTC, Hefei, China
-Native gate decomposition
+- Quantum Random Access Memory [https://arxiv.org/abs/2303.05207 arXiv:2303.05207]
+-- In this work, we focus on the access of larger data sizes without keeping on increasing the size of the QRAM. Firstly, we address the challenge of word length, as real-world datasets typically have larger word lengths than the single-bit data that most previous studies have focused on. We propose a novel protocol for loading data with larger word lengths $k$ without increasing the number of QRAM levels $n$. By exploiting the parallelism in the data query process, our protocol achieves a time complexity of $O(n\+k)$ and improves error scaling performance compared to existing approaches. Secondly, we provide a data-loading method for general-sized data access tasks when the number of data items exceeds $2^{n}$, which outperforms the existing hybrid QRAM+QROM architecture. Our method contributes to the development of time and error-optimized data access protocols for QRAM devices, reducing the qubit count and error requirements for QRAM implementation, and making it easier to construct practical QRAM devices with a limited number of physical qubits.
+
+- Native gate decomposition of SWAP gates [https://arxiv.org/abs/2306.10250 arXiv:2306.10250]
+-- In this article, we present a novel decomposition strategy for the SWAP network, accompanied by additional extensions that leverage an overcomplete set of native gates. Through comprehensive evaluations, we demonstrate the effectiveness of our protocol in reducing the gate count and streamlining the implementation of generalized SWAP networks and Quantum Random Access Memory (QRAM). Our research tackles the challenges posed by limited connectivity, leading to improved performance of SWAP networks and simplified QRAM implementation, thereby contributing to the advancement of quantum computing technologies.
 
 == @ USC, Los Angeles, USA
-Quantum Hamilitonian Simulation
+- Quantum Hamilitonian Simulation
+-- Implemented quantum circuits of LCU-based algorithm in [https://quantum-journal.org/papers/q-2021-04-08-426/ Quantum 5, 426 (2021)]
+-- Optimized circuits for lower depth and two-qubit gate counts
